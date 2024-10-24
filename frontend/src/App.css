@@ -1,0 +1,56 @@
+.customShadow{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/***user table***/
+.userTable{
+    @apply bg-white
+}
+.userTable th{
+    @apply border text-base font-medium
+}
+
+.userTable td{
+    @apply border text-base text-center
+}
+h2{
+    /* font-size: 20px; */
+    /* background-color: chartreuse; */
+
+}
+body{
+    background-color: rgb(234, 229, 230);
+}
+.logoname{
+    background-color: rgb(219, 42, 36);
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    
+}
+.app-download{
+    background-color: rgb(192, 116, 116);
+    border-radius: 1vw;
+}
+.footer-sections{
+    margin-top: 2vw;
+    background-color: gray;
+    border-radius: 1vw;
+}
+.container{
+    /* margin-top: 3vw; */
+}
+.logoname h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/**scrollbar hidden****/
+.scrollbar-none::-webkit-scrollbar{
+    display: none;
+}
+
+.addprd{
+    margin-left: -20vw;
+}
+
